@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.chatPomme {
+    display: flex;
+    justify-content: center;
+    background: rgb(34, 32, 40);
+}
+
+.chatPomme img {
+    width: 111vh;
+}
+
+.hiddenLink {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 64px;
+    height: 64px;;
+}
+
+.hiddenLink {
+    cursor: default;
+}

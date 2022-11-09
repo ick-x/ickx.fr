@@ -5,32 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/ChatPomme.png">
+    <link rel="icon" type="image/x-icon" href="./sound/backgroundMusic.mp3">
+    <script src="./js/backgroundAudio.js"></script>
     <title>ickx</title>
-</head>
-<style>
-    body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        background: rgb(34, 32, 40);
-    }
 
-    img {
-        width: 111vh;
-    }
-</style>
-<script>
-    const src = "./backgroundMusic.mp3";
-    const audioElm = document.createElement("audio");
-    audioElm.autoplay = true;
-    audioElm.loop = true;
-    audioElm.load();
-    audioElm.onLoad = () => audioElm.play();
-    audioElm.src = src;
-</script>
+</head>
+
+
 
 <body>
-    <img src="./ChatPomme.gif">
+    <div class="chatPomme">
+        <img src="./images/ChatPomme.gif">
+    </div>
+    <a class="hiddenLink" id="prout" href="./pages/pageTropCachee.html">
+        <script src="./js/hiddenLink.js"></script>
 </body>
 
 </html>
