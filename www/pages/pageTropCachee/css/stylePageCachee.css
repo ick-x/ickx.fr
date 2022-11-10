@@ -1,0 +1,12 @@
+body {
+    background: rgb(25, 25, 25);
+}
+
+.typerText {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40vh;
+    color: white;
+}
