@@ -1,0 +1,11 @@
+body {
+    background : rgb(25,25,25);
+}
+
+.typerText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color : rgb(250,250,250);
+    padding-top : 40vh;
+}
